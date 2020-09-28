@@ -10,5 +10,6 @@ public class Main {
         Professor p = new Professor("James");
         System.out.println(p.getName());
 
+
     }
 }
