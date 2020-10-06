@@ -40,6 +40,18 @@ public class MainActivity extends AppCompatActivity {
                 tv.setText(Integer.toString(value));
             }
         });
+
+        Button minusminus = (Button)findViewById(R.id.btnMinusMinus);
+        minusminus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TextView tv = (TextView) findViewById(R.id.currentValueText);
+                int value = Integer.parseInt(tv.getText().toString());
+                value-=2;
+                tv.setText(Integer.toString(value));
+            }
+        });
+
     }
 
     class PlusClickListener implements View.OnClickListener {
