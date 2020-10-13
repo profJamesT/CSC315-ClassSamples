@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.csp.csc315.listviewdemo.MainActivity">
+    <item
+        android:id="@+id/action_remove_all"
+        android:orderInCategory="100"
+        android:title="Remove All"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_first"
+        android:orderInCategory="101"
+        android:title="Remove First" />
+    <item
+        android:id="@+id/action_remove_last"
+        android:orderInCategory="102"
+        android:title="Remove Last" />
+</menu>
